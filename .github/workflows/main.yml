@@ -33,9 +33,10 @@ jobs:
     name: Imprime data atual - ubumto-latest
     runs-on: windows-latest
     needs: 
-    - Imprime data atual - Ubuntu
-    - Imprime data atual - Windows
-    - Imprime data atual - macos
+    - imprime_data_ubuntu
+    - imprime_data_windows
+    - imprime_data_macos
+    
     steps:
       - name: Imprime data atual
         run: date
