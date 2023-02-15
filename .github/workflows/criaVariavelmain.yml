@@ -2,11 +2,7 @@ name: CriaVariavel do Piloni
 
 on:
   push:
-  
-env:
-    VARIAVEL_1: Renato Piloni
-    VARIAVEL_2: Curitiba
-    
+   
 jobs:
 
   checkout_code:
