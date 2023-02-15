@@ -22,5 +22,5 @@ jobs:
     - name: Upload a Build Artifact
       users: actions/upload-artifact@v3.1.2
       with:
-        name: ${{ ]variavel_piloni }}
+        name: ${{ variavel_piloni }}
         path: .
